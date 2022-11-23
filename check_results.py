@@ -9,6 +9,7 @@ import pandas as pd
 import pickle
 from Bio import Entrez, SeqIO, Seq
 from ast import literal_eval # Used to convert the list column to a real list
+
 Entrez.email = 'zivse@post.bgu.ac.il' # Enter your email address here
 Entrez.api_key = '016d35b4600f9c5d1d5ced586898c3ff3a09' # Enter your API key here
 
